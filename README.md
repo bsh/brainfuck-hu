@@ -488,7 +488,7 @@ http://www.iwriteiam.nl/Ha_bf_numb.html - nagy számok kezelése a BrainFuck-ban
 BrainFuck Programmin Tutorial
 by: omin0us <omin0us208[AT]gmail[DOT]com>    
 
-Fordította: scottanyo <scottanyo[AT]gmail[DOT]com> és B$H <bsh[@]gyorikredit[.]hu>
+Fordította: scottanyo és B$H
 Köszönet: Eltono, zYztem
 Fordítói megjegyzések:
 	Nem szó szerinti fordítás, ahol úgy gondoltam, hogy kell még magyarázni,
