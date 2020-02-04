@@ -1,3 +1,4 @@
+
 # Bevezetés a BrainFuck Programozásba v.1.4
 Utolsó módosítás: 2006.06.10.
 
@@ -22,15 +23,16 @@ elemszámú tömböd, 1 byetos memória blokkokkal. A tömb mérete a complieter
 Ezután már csak az itt található értékek növelésére és csökkentésére van módunk. 
 Had mutassam meg, mire is jó a mi kis nyolc operátorunk:
 
-> = növeli a memória pointert, vagyis átugrasztja egy blokkal jobbra
-< = csökkenti a memória pointert, vagyis  átugrasztja egy blokkal jobbra 
-+ = növeli a blokk értékét, amin a pointer áll
-- = csökkenti a blokk értékét, amin a pointer áll
-[ = mint a C nyelvben a while(akutalis_blokk_erteke != 0) ciklus
-] = ha a blokk aktuális eleme amire a pointer mutat nem nulla, akkor visszaugrik 
-a [ jelhez
-, = mint a C-ben a getchar(), bekér egy karaktert
-. = mint a C-ben a putchar(), kiir egy karaktert
+| operátor | működése |
+|--|--|
+| > | növeli a memória pointert, vagyis átugrasztja egy blokkal jobbra |
+| < | csökkenti a memória pointert, vagyis  átugrasztja egy blokkal jobbra 
+| + | növeli a blokk értékét, amin a pointer áll
+| - | csökkenti a blokk értékét, amin a pointer áll
+| [ | mint a C nyelvben a while(akutalis_blokk_erteke != 0) ciklus
+| ] | ha a blokk aktuális eleme amire a pointer mutat nem nulla, akkor visszaugrik a [ jelhez
+| , | mint a C-ben a getchar(), bekér egy karaktert
+| . | mint a C-ben a putchar(), kiir egy karaktert
 
 Pár szabály:
 
@@ -256,9 +258,9 @@ valamivel komplexebben.
 
 Ez a program hasonló az UNIX-os cat parancshoz. Az STDIN-ről olvassa az értéket, 
 és az STDOUT-on jeleníti meg. (STDIN - standart iput, STDOUT - standart output. 
-- ford.) Daraboljuk fel:
+\- ford.) Daraboljuk fel:
 
-	>,
+	\>,
 
 Memória pointert jobbra tolása a második blokkig. Az input a második blokkba 
 kerül, az első üresen marad.
@@ -468,9 +470,8 @@ módnál a másolgatás helyett saját helyén, közvetlenül vonjuk ki az input
 
 --[6] GYAKORLÓ FELADATOK:
 
-1. Írj programot, ami kiírja a neved. (Példák: bsh.bf, scottanyo.bf)
-2. Írj programot, ami kiírja az összes "nyomtatható" ASCII karaktert. (Példa: 
-ascii.bf)
+1. Írj programot, ami kiírja a neved.
+2. Írj programot, ami kiírja az összes "nyomtatható" ASCII karaktert
 3. Írj egy programot melynek bemenete egy '\0' karakterrel lezárt sztring,
 kimenete pedig egy BrainFuck kód, amit lefuttatva kiírja a begépelt sztringet.
 (igen, elsőre kicsit vadul hangzik, de nem lehetetlen). 
