@@ -1,4 +1,4 @@
-Bevezetés a BrainFuck Programozásba v.1.4
+# Bevezetés a BrainFuck Programozásba v.1.4
 Utolsó módosítás: 2006.06.10.
 
 --[1] BEVEZETŐ
@@ -469,8 +469,8 @@ módnál a másolgatás helyett saját helyén, közvetlenül vonjuk ki az input
 --[6] GYAKORLÓ FELADATOK:
 
 1. Írj programot, ami kiírja a neved. (Példák: bsh.bf, scottanyo.bf)
-2. Írj programot, ami kiírja az összes "nyomtatható" ASSCI karaktert. (Példa: 
-assci.bf)
+2. Írj programot, ami kiírja az összes "nyomtatható" ASCII karaktert. (Példa: 
+ascii.bf)
 3. Írj egy programot melynek bemenete egy '\0' karakterrel lezárt sztring,
 kimenete pedig egy BrainFuck kód, amit lefuttatva kiírja a begépelt sztringet.
 (igen, elsőre kicsit vadul hangzik, de nem lehetetlen). 
